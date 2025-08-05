@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Python PCEP: Certified Entry-Level Python Programmer",
+    "issuedBy": "Udemy",
+    "issuedOn": "March 2021",
+    "url": "https://www.udemy.com/certificate/UC-bda0fd9c-adef-4cad-a42c-dfb11b818da4/"
+  },
+  {
+    "id": 2,
+    "name": "FastAPI - The Complete Course 2025 (Beginner + Advanced)",
+    "issuedBy": "Udemy",
+    "issuedOn": "June 2025",
+    "url": "https://www.udemy.com/certificate/UC-27423691-494d-4ffa-97fa-ba815d019fca/"
+  },
+  {
+    "id": 3,
+    "name": "Let's Learn Laravel & Livewire: A Guided Path For Beginners",
+    "issuedBy": "Udemy",
+    "issuedOn": "June 2025",
+    "url": "https://www.udemy.com/certificate/UC-7615fe8a-cdfe-4a3c-8e18-ab36b7af22e9/"
+  }
+]
+

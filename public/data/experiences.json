@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "position": "Associate Software Developer",
+    "company": "Tech Solutions Ltd.",
+    "achievements": [
+      "Built RESTful APIs with FastAPI",
+      "Integrated MongoDB for dynamic content",
+      "Improved backend performance by 25%"
+    ],
+    "duration": "2022-06 to 2023-10"
+  },
+  {
+    "id": 2,
+    "position": "Backend Developer Intern",
+    "company": "StartUpX",
+    "achievements": [
+      "Developed internal admin dashboard using Django",
+      "Worked with PostgreSQL and Celery tasks"
+    ],
+    "duration": "2021-01 to 2021-06"
+  }
+]
