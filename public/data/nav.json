@@ -1,4 +1,13 @@
 {
     "user": "Avishek Das",
-    "profilePicture": "assets/profile.jpg"
+    "profilePicture": "assets/profile.jpg",
+    "navItems": [
+        "about",
+        "experience",
+        "education",
+        "skills",
+        "interests",
+        "certificates",
+        "contact"
+    ]
 }

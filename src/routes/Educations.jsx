@@ -1,27 +1,24 @@
+import { useLoaderData } from "react-router-dom";
 import Education from "../components/Education";
 
 export default function Educations() {
+  const educations = useLoaderData();
+
   return (
     <>
       <section className="resume-section" id="education">
         <div className="resume-section-content">
           <h2 className="mb-5">Education</h2>
-          <Education
-            college="Hemnalini Memorial College of Technology, MAKAUT"
-            degree="Bachelor of Technology"
-            stream="Computer Science and Engineering"
-            gpa="8.9"
-            startDate="June 2018"
-            endDate="June 2021"
-          />
-          <Education
-            college="Bengal Institute of Technology, WBSCTVESD"
-            degree="Diploma Engineering"
-            stream="Information Technology"
-            gpa="7.5"
-            startDate="June 2013"
-            endDate="June 2016"
-          />
+          {educations.map((education) => (
+            <Education
+              college={education.college}
+              degree={education.degree}
+              stream={education.stream}
+              gpa={education.gpa}
+              startDate={education.startDate}
+              endDate={education.endDate}
+            />
+          ))}
         </div>
       </section>
       <hr className="m-0" />

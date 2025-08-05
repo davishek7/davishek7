@@ -10,50 +10,44 @@ import Interests from "./routes/Interests";
 import Certificates from "./routes/Certificates";
 import Contact from "./routes/Contact";
 import Skills from "./routes/Skills";
-import { skillLoader } from "./loaders/skill.loader";
-import { certificateLoader } from "./loaders/certificate.loader";
-import { educationLoader } from "./loaders/education.loader"
-import { homeLoader } from "./loaders/home.loader"
-import { experienceLoader } from "./loaders/experience.loader"
-import { interestLoader } from "./loaders/interest.loader"
-import { navLoader } from "./loaders/nav.loader";
+import { createLoader } from "./loaders/createLoader";
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
-    loader: navLoader,
+    loader: createLoader("nav.json"),
     children: [
       {
         path: "/",
         element: <Home />,
-        loader: homeLoader
+        loader: createLoader("about.json")
       },
       {
         path: "/experience",
         element: <Experiences />,
-        loader: experienceLoader
+        loader: createLoader("experiences.json")
       },
       {
         path: "/education",
         element: <Educations />,
-        loader: educationLoader
+        loader: createLoader("educations.json")
       },
       {
         path: "/skills",
         element: <Skills />,
-        loader: skillLoader
+        loader: createLoader("skills.json")
       },
       {
         path: "/interests",
         element: <Interests />,
-        loader: interestLoader
+        loader: createLoader("interests.json")
       },
       {
         path: "/certificates",
         element: <Certificates />,
-        loader: certificateLoader
+        loader: createLoader("certificates.json")
       },
       {
         path: "/contact",

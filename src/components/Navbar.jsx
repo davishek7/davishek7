@@ -1,8 +1,8 @@
-import { Link, useLoaderData } from 'react-router-dom'
+import { Link, useLoaderData, useLocation } from "react-router-dom";
 
 export default function Navbar() {
-
-  const data = useLoaderData()
+  const data = useLoaderData();
+  const location = useLocation();
 
   return (
     <nav
@@ -32,41 +32,22 @@ export default function Navbar() {
       </button>
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/">
-              About
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/experience">
-              Experience
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/education">
-              Education
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/skills">
-              Skills
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/interests">
-              Interests
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/certificates">
-              Certificates
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/contact">
-              Contact
-            </Link>
-          </li>
+          {data.navItems.map((navItem) => {
+            const path = navItem !== "about" ? `/${navItem}` : "/";
+            const isActive = location.pathname === path;
+            return (
+              <li className="nav-item" key={navItem}>
+                <Link
+                  className={`nav-link js-scroll-trigger ${
+                    isActive ? "active" : ""
+                  }`}
+                  to={path}
+                >
+                  {navItem}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </nav>

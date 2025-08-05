@@ -2,22 +2,15 @@
   {
     "id": 1,
     "position": "Associate Software Developer",
-    "company": "Tech Solutions Ltd.",
+    "company": "Vyrazu Labs Pvt. Ltd.",
     "achievements": [
-      "Built RESTful APIs with FastAPI",
-      "Integrated MongoDB for dynamic content",
-      "Improved backend performance by 25%"
+      "Worked as a Backend Developer on the OnlineTradingCampus platform, focusing on performance optimization, data consistency, and feature development.",
+      "Accelerated backend development using Django and Django REST Framework (DRF), enabling faster deployment of product features.",
+      "Resolved data integrity issues by identifying and correcting badly formatted entries in a MySQL database.",
+      "Designed and implemented new REST API endpoints to support app upgrades and improve user functionality.",
+      "Followed Gitflow workflow for efficient version control and collaborative development.",
+      "Technologies Used: Django, Django REST Framework(DRF), MySQL, Git (Gitflow)"
     ],
-    "duration": "2022-06 to 2023-10"
-  },
-  {
-    "id": 2,
-    "position": "Backend Developer Intern",
-    "company": "StartUpX",
-    "achievements": [
-      "Developed internal admin dashboard using Django",
-      "Worked with PostgreSQL and Celery tasks"
-    ],
-    "duration": "2021-01 to 2021-06"
+    "duration": "September 2021 - June 2022"
   }
 ]
