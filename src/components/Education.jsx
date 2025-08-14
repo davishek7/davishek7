@@ -4,7 +4,7 @@ export default function Education({ college, degree, stream, gpa, startDate, end
       <div className="flex-grow-1">
         <h3 className="mb-0">{college}</h3>
         <div className="subheading mb-3">{degree}</div>
-        <div>{stream}</div>
+        <div className="lead">{stream}</div>
         <p>GPA: {gpa}</p>
       </div>
       <div className="flex-shrink-0">

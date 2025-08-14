@@ -11,6 +11,7 @@ export default function Educations() {
           <h2 className="mb-5">Education</h2>
           {educations.map((education) => (
             <Education
+              key={education.id}
               college={education.college}
               degree={education.degree}
               stream={education.stream}

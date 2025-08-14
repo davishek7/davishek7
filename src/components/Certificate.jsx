@@ -6,7 +6,7 @@ export default function Certificate({ name, issuedBy, issuedOn, url }) {
       <span className="fa-li">
         <i className="fas fa-certificate text-warning"></i>
       </span>
-      <Link to={url} target="_blank" className="text-decoration-none">
+      <Link to={url} target="_blank" className="text-decoration-none lead">
         {name}, {issuedBy} ({issuedOn})
       </Link>
     </li>

@@ -10,7 +10,8 @@ import Interests from "./routes/Interests";
 import Certificates from "./routes/Certificates";
 import Contact from "./routes/Contact";
 import Skills from "./routes/Skills";
-import { createLoader } from "./loaders/createLoader";
+import { createLoader } from "./loaders/create.loader";
+import { contactAction } from "./actions/contact.action";
 
 
 const router = createBrowserRouter([
@@ -52,6 +53,7 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+        action: contactAction
       },
     ],
   },

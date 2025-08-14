@@ -4,12 +4,9 @@ export default function Experience({position, company, achievements, duration}) 
       <div className="flex-grow-1">
         <h3 className="mb-0">{position}</h3>
         <div className="subheading mb-3">{company}</div>
-        <p>
           {achievements.map(achievement => (
-          <p>{achievement}</p>
+          <p className="lead" key={achievement}>{achievement}</p>
         ))}
-        </p>
-
       </div>
       <div className="flex-shrink-0">
         <span className="text-primary">{duration}</span>

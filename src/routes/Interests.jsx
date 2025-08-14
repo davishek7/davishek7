@@ -10,7 +10,7 @@ export default function Interests() {
         <div className="resume-section-content">
           <h2 className="mb-5">Interests</h2>
           {interests.map((interest) => (
-          <p className="mb-0">
+          <p className="mb-0 lead" key={interest}>
             {interest}
           </p>
           ))}
