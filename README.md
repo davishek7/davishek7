@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **davishek7@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1UZ7q6apHqdqTFg3COPjOCqJn6flkd5ni/view?usp=drive_link](https://drive.google.com/file/d/1UZ7q6apHqdqTFg3COPjOCqJn6flkd5ni/view?usp=drive_link)
+- 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1_IHNNHkUFKszZtqVg3xRLtRpfFSK84D-/view)
 
 - ⚡ Fun fact **The first computer bug was a real bug — literally! 🪲 In 1947, engineers working on the Harvard Mark II computer found that it was malfunctioning. The cause? A moth had gotten stuck in a relay. They taped the moth into the logbook with the note "First actual case of bug being found" — and that’s how the term "debugging" became popular in computing! So yes, the tech world’s most infamous issue started with a flying insect.**
 
